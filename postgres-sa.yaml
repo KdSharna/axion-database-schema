@@ -1,0 +1,10 @@
+
+apiVersion: v1
+kind: ServiceAccount
+
+metadata:
+  name: postgres-sa
+  namespace: axion
+  
+  annotations:
+    azure.workload.identity/client-id: "8b7a6186-afb5-4aea-b45e-80534f26f22c"
